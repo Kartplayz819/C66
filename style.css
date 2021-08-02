@@ -1,0 +1,88 @@
+body{
+    padding-top: 800px;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Comic Sans", fantasy; 
+}
+
+
+
+#Apps{
+    width: 100%;
+    height:800px;
+    background: linear-gradient(#b1eb34 0%, #34ebc0 100%);
+    
+}
+
+#Games{
+    width: 100%;
+    height:700px;
+    background:linear-gradient(#34ebc0 0%, #3734eb 100%);
+}
+
+#Art{
+    width: 100%;
+    height:800px;
+    background: linear-gradient(#3734eb 0%, #8f34eb 100%);
+}
+
+#Chatbot{
+    width: 100%;
+    height:800px;
+    background: linear-gradient(#8f34eb 0%, #34ebc0 100%);
+}
+
+img{
+    transition: transform .2s;
+}
+
+img:hover{
+   transform: scale(0.9);
+}
+.line{
+    height:6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+#myCarousel{
+    background-color:#34ebc0;
+}
+
+.container{
+    text-align: center;
+}
+
+#myCarouselimg{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px; 
+    margin-top: 15px; 
+    color : white; 
+    font-size: 20px; 
+}
+
